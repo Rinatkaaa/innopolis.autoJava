@@ -9,7 +9,7 @@ public class Task3 {
         Item product4 = new Item("Холодильник", "855438н", 40000, 1, "LG" );
         Item product5 = new Item("Клавиатура", "615478и", 20000, 5, "ARDOR" );
 
-        System.out.println("\"" + product1.vendorCode + " - " + product1.name + " - " + product1.price + " - " + product1.quantity + " - " + "[Yellow]\"");
+        System.out.println("\"" + product1.vendorCode + " - " + product1.name + " - " + product1.price + " - " + product1.quantity + " - " + "[Yellow]\""); // Здесь я указал цвет как строку, так как в дз конкретно не было указано как сделать
         System.out.println("\"" + product2.vendorCode + " - " + product2.name + " - " + product2.price + " - " + product2.quantity + " - " + "[Blue]\"");
         System.out.println("\"" + product3.vendorCode + " - " + product3.name + " - " + product3.price + " - " + product3.quantity + " - " + "[Green]\"");
         System.out.println("\"" + product4.vendorCode + " - " + product4.name + " - " + product4.price + " - " + product4.quantity + " - " + "[Red]\"");
