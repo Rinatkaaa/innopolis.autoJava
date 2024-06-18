@@ -26,7 +26,7 @@ public class Card {
         if (numberCode.equals(this.pinCode)) {
             System.out.println(this.number);
         } else {
-            System.out.println("Неверный пинкод");
+            System.out.println();
         }
     }
 

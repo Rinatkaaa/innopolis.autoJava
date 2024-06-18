@@ -1,4 +1,4 @@
-package Homerwork_ls_4;
+package Homework_ls_4;
 
 public class Task3 {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Task3 {
         films[2] = new Movie("60 минут", 6.4, "Спорт", "Германия", false);
 
 
-        for (int i = 0; i < 3; i++){
+        for (int i = 0; i < 3; i++) {
             String info = (films[i].country + " - " + films[i].oscar + " - " + films[i].name + " - " + films[i].genre + " - " + films[i].rating);
             System.out.println(info);
         }

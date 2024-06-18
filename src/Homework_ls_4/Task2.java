@@ -1,4 +1,4 @@
-package Homerwork_ls_4;
+package Homework_ls_4;
 
 public class Task2 {
     public static void main(String[] args) {
