@@ -26,7 +26,7 @@ public class Task6 {
         points.replace(new Player(9, "Анжелика", true), 0, 13);
         points.replace(new Player(10, "Рената", true), 0, 5);
 
-        List<Map.Entry<Player, Integer>> sortedPlayers = new ArrayList<>(points.entrySet());
+        List<Map.Entry<Player, Integer>> sortedPlayers = new ArrayList<>(points.entrySet()); // Это всё подглядел в интернете, хотелось бы узнать про это побольше на консультации
         sortedPlayers.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
 
         // Выводим 3 лучших игроков
