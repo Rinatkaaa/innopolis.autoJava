@@ -50,7 +50,8 @@ public class Homework_ls_2 {
         boolean result16 = city.equals("Moscow"); //Применяют для сравнения объектов на равенство. Он возвращает true, если два объекта равны, и false, если они не равны.
         System.out.println(result16);
 
-
+        String name = "rinat";
+        int a = 12;
 
     }
 }
